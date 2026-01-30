@@ -72,13 +72,13 @@ Every Taskade workspace is a living system built on three pillars:
 |--------|-------------|-------------|
 | **Memory** | Projects are live, queryable databases — not static docs | Your data powers your apps in real time |
 | **Intelligence** | AI agents that reason, plan, and act across your workspace | Agents handle updates, research, and decisions autonomously |
-| **Execution** | Workflows that connect 100+ services and run themselves | Automations trigger on events and adapt over time |
+| **Execution** | Workflows that connect [100+ services](https://www.taskade.com/integrations) and run themselves | Automations trigger on events and adapt over time |
 
 ---
 
 ## Taskade Genesis — Build Apps from Prompts
 
-Genesis turns natural language into fully functional applications:
+[Genesis](https://www.taskade.com/create) turns natural language into fully functional applications:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -129,7 +129,7 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
 | [**Tools**](https://taskade.com/community/tools) | CRM views, inventory systems, admin panels | AI agents keep data current |
 | [**Websites**](https://taskade.com/community/websites) | Landing pages, portfolios, status pages | Shareable URLs with custom domains |
 | [**Projects**](https://taskade.com/community/projects) | Task boards, roadmaps, sprint plans | Real-time collaborative project management |
-| [**Workflows**](https://taskade.com/community/workflows) | Lead routing, content pipelines, approval chains | Durable automation across 100+ services |
+| [**Workflows**](https://taskade.com/community/workflows) | Lead routing, content pipelines, approval chains | Durable automation across [100+ services](https://www.taskade.com/integrations) |
 | [**Forms**](https://taskade.com/community/forms) | Surveys, applications, feedback collectors | Submissions flow into live project databases |
 | [**Commerce**](https://taskade.com/community/commerce) | Storefronts, order trackers, product catalogs | End-to-end commerce powered by AI |
 | [**Quick Apps**](https://taskade.com/community/quick-apps) | Calculators, converters, mini-tools | Instant single-purpose apps from a prompt |
@@ -299,7 +299,7 @@ npx @taskade/mcp@latest
 <p align="center">
   <b>Software should be built by everyone.</b><br>
   Creation should be instant. Apps should be alive.<br><br>
-  <a href="https://taskade.com"><b>Build without permission →</b></a>
+  <a href="https://www.taskade.com/create"><b>Build without permission →</b></a>
 </p>
 
 <p align="center">
