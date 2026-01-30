@@ -13,7 +13,7 @@
 ```
 
 <p align="center">
-  <a href="https://taskade.com"><b>Website</b></a> · <a href="https://docs.taskade.com"><b>API Docs</b></a> · <a href="https://www.taskade.com/blog"><b>Blog</b></a> · <a href="https://taskade.com/community"><b>Community</b></a> · <a href="https://reddit.com/r/taskade"><b>Forum</b></a> · <a href="https://status.taskade.com"><b>Status</b></a> · <a href="https://x.com/taskade"><b>X / Twitter</b></a>
+  <a href="https://taskade.com"><b>Website</b></a> · <a href="https://docs.taskade.com"><b>API Docs</b></a> · <a href="https://www.taskade.com/blog"><b>Blog</b></a> · <a href="https://taskade.com/community"><b>Community</b></a> · <a href="https://reddit.com/r/taskade"><b>Forum</b></a> · <a href="https://youtube.com/taskade"><b>YouTube</b></a> · <a href="https://x.com/taskade"><b>X / Twitter</b></a>
 </p>
 
 ---
@@ -121,14 +121,18 @@ Genesis turns natural language into fully functional applications:
 
 ## What You Can Build
 
+Explore and clone ready-made AI app kits from the **[Taskade Community](https://taskade.com/community)**:
+
 | Category | Examples | How It Works |
 |----------|----------|-------------|
-| **Dashboards** | KPI trackers, analytics panels, team metrics | Projects sync as live data sources |
-| **Internal Tools** | CRM views, inventory systems, admin panels | AI agents keep data current |
-| **Customer Portals** | Client dashboards, support hubs, status pages | Shareable URLs with custom domains |
-| **Workflows** | Lead routing, content pipelines, approval chains | Durable automation across 100+ services |
-| **Forms & Intake** | Surveys, applications, feedback collectors | Submissions flow into live project databases |
-| **Knowledge Bases** | Documentation hubs, wikis, runbooks | Real-time collaborative editing with AI assistance |
+| [**Dashboards**](https://taskade.com/community/dashboards) | KPI trackers, analytics panels, team metrics | Projects sync as live data sources |
+| [**Tools**](https://taskade.com/community/tools) | CRM views, inventory systems, admin panels | AI agents keep data current |
+| [**Websites**](https://taskade.com/community/websites) | Landing pages, portfolios, status pages | Shareable URLs with custom domains |
+| [**Projects**](https://taskade.com/community/projects) | Task boards, roadmaps, sprint plans | Real-time collaborative project management |
+| [**Workflows**](https://taskade.com/community/workflows) | Lead routing, content pipelines, approval chains | Durable automation across 100+ services |
+| [**Forms**](https://taskade.com/community/forms) | Surveys, applications, feedback collectors | Submissions flow into live project databases |
+| [**Commerce**](https://taskade.com/community/commerce) | Storefronts, order trackers, product catalogs | End-to-end commerce powered by AI |
+| [**Quick Apps**](https://taskade.com/community/quick-apps) | Calculators, converters, mini-tools | Instant single-purpose apps from a prompt |
 
 ---
 
@@ -299,5 +303,5 @@ npx @taskade/mcp@latest
 </p>
 
 <p align="center">
-  <a href="https://taskade.com">Website</a> · <a href="https://docs.taskade.com">API</a> · <a href="https://taskade.com/community">Community</a> · <a href="https://reddit.com/r/taskade">Forum</a> · <a href="https://x.com/taskade">X / Twitter</a> · <a href="https://status.taskade.com">Status</a>
+  <a href="https://taskade.com">Website</a> · <a href="https://www.taskade.com/about">About</a> · <a href="https://docs.taskade.com">API</a> · <a href="https://taskade.com/community">Community</a> · <a href="https://reddit.com/r/taskade">Forum</a> · <a href="https://www.taskade.com/blog">Blog</a> · <a href="https://youtube.com/taskade">YouTube</a> · <a href="https://x.com/taskade">X / Twitter</a> · <a href="https://www.taskade.com/contact">Contact</a>
 </p>
