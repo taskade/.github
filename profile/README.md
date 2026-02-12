@@ -46,20 +46,20 @@ Every Taskade workspace is a living system built on three pillars:
 │               The architecture behind every Taskade app                 │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐  │
-│   │      MEMORY       │  │   INTELLIGENCE    │  │    EXECUTION      │  │
-│   │    ┌─────────┐    │  │    ┌─────────┐    │  │    ┌─────────┐    │  │
-│   │    │Projects │    │  │    │   AI    │    │  │    │Workflows│    │  │
-│   │    │   as    │    │  │    │ Agents  │    │  │    │   that  │    │  │
-│   │    │  live   │    │  │    │  that   │    │  │    │  run    │    │  │
-│   │    │databases│    │  │    │  think  │    │  │    │24 / 7   │    │  │
-│   │    └─────────┘    │  │    └─────────┘    │  │    └─────────┘    │  │
-│   │                   │  │                   │  │                   │  │
-│   │ • Structured data │  │ • Reasoning       │  │ • Triggers        │  │
-│   │ • Real-time sync  │  │ • Planning        │  │ • Actions         │  │
-│   │ • Version history │  │ • Context-aware   │  │ • 100+ services   │  │
-│   │ • OT conflict res │  │ • Multi-model     │  │ • Durable engine  │  │
-│   └───────────────────┘  └───────────────────┘  └───────────────────┘  │
+│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐   │
+│   │      MEMORY       │  │   INTELLIGENCE    │  │    EXECUTION      │   │
+│   │    ┌─────────┐    │  │    ┌─────────┐    │  │    ┌─────────┐    │   │
+│   │    │Projects │    │  │    │   AI    │    │  │    │Workflows│    │   │
+│   │    │   as    │    │  │    │ Agents  │    │  │    │   that  │    │   │
+│   │    │  live   │    │  │    │  that   │    │  │    │  run    │    │   │
+│   │    │databases│    │  │    │  think  │    │  │    │24 / 7   │    │   │
+│   │    └─────────┘    │  │    └─────────┘    │  │    └─────────┘    │   │
+│   │                   │  │                   │  │                   │   │
+│   │ • Structured data │  │ • Reasoning       │  │ • Triggers        │   │
+│   │ • Real-time sync  │  │ • Planning        │  │ • Actions         │   │
+│   │ • Version history │  │ • Context-aware   │  │ • 100+ services   │   │
+│   │ • OT conflict res │  │ • Multi-model     │  │ • Durable engine  │   │
+│   └───────────────────┘  └───────────────────┘  └───────────────────┘   │
 │            ▲                      ▲                      ▲              │
 │            └──────────────────────┴──────────────────────┘              │
 │                         Continuous Feedback Loop                        │
@@ -85,27 +85,27 @@ Every Taskade workspace is a living system built on three pillars:
 │                       GENESIS APP BUILDER                               │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│   PROMPT                        APP                                     │
-│   ──────                        ───                                     │
+│   PROMPT                         APP                                    │
+│   ──────                         ───                                    │
 │                                                                         │
-│   "Build a customer             ┌──────────────────────────────┐       │
-│    dashboard with               │  Customer Dashboard    [Live] │       │
-│    live metrics"                │                              │       │
-│         │                       │  ┌────────┐  ┌────────┐      │       │
-│         │   ┌──────────┐        │  │ Active │  │Revenue │      │       │
+│   "Build a customer              ┌──────────────────────────────┐       │
+│    dashboard with                │  Customer Dashboard   [Live] │       │
+│    live metrics"                 │                              │       │
+│         │                        │  ┌────────┐  ┌────────┐      │       │
+│         │   ┌──────────┐         │  │ Active │  │Revenue │      │       │
 │         └──▶│ Genesis  │───────▶│  │  142   │  │ $48.2K │      │       │
-│             │  Engine  │        │  └────────┘  └────────┘      │       │
-│             └──────────┘        │                              │       │
-│                                 │  ┌──────────────────────┐    │       │
-│                                 │  │ ████████░░░░  67%    │    │       │
-│                                 │  │ Satisfaction Score   │    │       │
-│                                 │  └──────────────────────┘    │       │
-│                                 │                              │       │
-│                                 │  Recent Activity             │       │
-│                                 │  ├─ New signup: Acme Corp    │       │
-│                                 │  ├─ Ticket resolved: #1042   │       │
-│                                 │  └─ Agent completed task     │       │
-│                                 └──────────────────────────────┘       │
+│             │  Engine  │         │  └────────┘  └────────┘      │       │
+│             └──────────┘         │                              │       │
+│                                  │  ┌──────────────────────┐    │       │
+│                                  │  │ ████████░░░░  67%    │    │       │
+│                                  │  │ Satisfaction Score   │    │       │
+│                                  │  └──────────────────────┘    │       │
+│                                  │                              │       │
+│                                  │  Recent Activity             │       │
+│                                  │  ├─ New signup: Acme Corp    │       │
+│                                  │  ├─ Ticket resolved: #1042   │       │
+│                                  │  └─ Agent completed task     │       │
+│                                  └──────────────────────────────┘       │
 │                                                                         │
 │   Features:                                                             │
 │   • Custom domains (yourapp.taskade.host)                               │
@@ -142,28 +142,28 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
  ┌──────────────────────────────────────────────────────────────────┐
  │                      AI AGENT SYSTEM                             │
  │                                                                  │
- │   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐ │
- │   │ Research │    │  Write   │    │ Automate │    │  Build   │ │
- │   │  Agent   │    │  Agent   │    │  Agent   │    │  Agent   │ │
- │   │          │    │          │    │          │    │          │ │
- │   │ Web      │    │ Content  │    │ Workflow │    │ App      │ │
- │   │ search,  │    │ drafts,  │    │ triggers,│    │ genesis, │ │
- │   │ analyze, │    │ reports, │    │ actions, │    │ iterate, │ │
- │   │ summarize│    │ refine   │    │ connect  │    │ deploy   │ │
- │   └──────────┘    └──────────┘    └──────────┘    └──────────┘ │
- │         │               │               │               │      │
- │         └───────────────┴───────────────┴───────────────┘      │
- │                              │                                  │
- │                     ┌────────┴────────┐                         │
- │                     │  Your Workspace │                         │
- │                     │    (Memory)     │                         │
- │                     └─────────────────┘                         │
+ │   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐   │
+ │   │ Research │    │  Write   │    │ Automate │    │  Build   │   │
+ │   │  Agent   │    │  Agent   │    │  Agent   │    │  Agent   │   │
+ │   │          │    │          │    │          │    │          │   │
+ │   │ Web      │    │ Content  │    │ Workflow │    │ App      │   │
+ │   │ search,  │    │ drafts,  │    │ triggers,│    │ genesis, │   │
+ │   │ analyze, │    │ reports, │    │ actions, │    │ iterate, │   │
+ │   │ summarize│    │ refine   │    │ connect  │    │ deploy   │   │
+ │   └──────────┘    └──────────┘    └──────────┘    └──────────┘   │
+ │         │               │               │               │        │
+ │         └───────────────┴───────────────┴───────────────┘        │
+ │                              │                                   │
+ │                     ┌────────┴────────┐                          │
+ │                     │  Your Workspace │                          │
+ │                     │    (Memory)     │                          │
+ │                     └─────────────────┘                          │
  │                                                                  │
- │   • Multi-agent collaboration — agents work together            │
- │   • Context-aware — reads your entire workspace                 │
- │   • Multi-model — GPT, Claude, Gemini                           │
- │   • Custom tools — web search, project management, code exec    │
- │   • Always learning — results feed back into workspace memory   │
+ │   • Multi-agent collaboration — agents work together             │
+ │   • Context-aware — reads your entire workspace                  │
+ │   • Multi-model — GPT, Claude, Gemini                            │
+ │   • Custom tools — web search, project management, code exec     │
+ │   • Always learning — results feed back into workspace memory    │
  │                                                                  │
  └──────────────────────────────────────────────────────────────────┘
 ```
@@ -188,16 +188,16 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
 ```
 ┌────────────────────────────────────────────────────────────────────┐
 │                                                                    │
-│   Claude Desktop ─┐                                               │
-│                   │     ┌──────────────────┐     ┌─────────────┐  │
-│   Cursor IDE ─────┼────▶│  @taskade/mcp   │────▶│  Taskade    │  │
-│                   │     │                  │     │  Workspace  │  │
-│   Any MCP Client ─┘     │  Official MCP    │     │             │  │
-│                         │  Server          │     │  Projects   │  │
-│                         │                  │     │  Agents     │  │
-│                         │  + OpenAPI-to-   │     │  Workflows  │  │
-│                         │    MCP codegen   │     │  Genesis    │  │
-│                         └──────────────────┘     └─────────────┘  │
+│   Claude Desktop ─┐                                                │
+│                   │     ┌──────────────────┐     ┌─────────────┐   │
+│   Cursor IDE ─────┼────▶│  @taskade/mcp   │────▶│  Taskade    │   │
+│                   │     │                  │     │  Workspace  │   │
+│   Any MCP Client ─┘     │  Official MCP    │     │             │   │
+│                         │  Server          │     │  Projects   │   │
+│                         │                  │     │  Agents     │   │
+│                         │  + OpenAPI-to-   │     │  Workflows  │   │
+│                         │    MCP codegen   │     │  Genesis    │   │
+│                         └──────────────────┘     └─────────────┘   │
 │                                                                    │
 │   Install:  npx @taskade/mcp@latest                                │
 │                                                                    │
@@ -267,31 +267,31 @@ npx @taskade/mcp@latest
 ## The Taskade Stack
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                         THE TASKADE STACK                                │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐       │
-│   │  WORKSPACE DNA  │  │  GENESIS ENGINE │  │  AGENT RUNTIME  │       │
-│   │                 │  │                 │  │                 │       │
-│   │  Live project   │  │  Prompt-to-app  │  │  Multi-agent    │       │
-│   │  databases with │  │  builder with   │  │  collaboration  │       │
-│   │  real-time sync │  │  custom domains │  │  across your    │       │
-│   │  and conflict   │  │  and edge       │  │  entire         │       │
-│   │  resolution     │  │  deployment     │  │  workspace      │       │
-│   └─────────────────┘  └─────────────────┘  └─────────────────┘       │
-│                                                                         │
-│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐       │
-│   │  FLOW ENGINE    │  │  COLLABORATION  │  │  MULTI-PLATFORM │       │
-│   │                 │  │                 │  │                 │       │
-│   │  Workflow       │  │  Real-time      │  │  Web, Desktop,  │       │
-│   │  automation     │  │  multiplayer    │  │  Mobile, and    │       │
-│   │  with 100+      │  │  editing with   │  │  Browser        │       │
-│   │  integrations   │  │  OT conflict    │  │  Extensions     │       │
-│   │                 │  │  resolution     │  │                 │       │
-│   └─────────────────┘  └─────────────────┘  └─────────────────┘       │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────┐
+│                         THE TASKADE STACK                         │
+├───────────────────────────────────────────────────────────────────┤
+│                                                                   │
+│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐   │
+│   │  WORKSPACE DNA  │  │  GENESIS ENGINE │  │  AGENT RUNTIME  │   │
+│   │                 │  │                 │  │                 │   │
+│   │  Live project   │  │  Prompt-to-app  │  │  Multi-agent    │   │
+│   │  databases with │  │  builder with   │  │  collaboration  │   │
+│   │  real-time sync │  │  custom domains │  │  across your    │   │
+│   │  and conflict   │  │  and edge       │  │  entire         │   │
+│   │  resolution     │  │  deployment     │  │  workspace      │   │
+│   └─────────────────┘  └─────────────────┘  └─────────────────┘   │
+│                                                                   │
+│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐   │
+│   │  FLOW ENGINE    │  │  COLLABORATION  │  │  MULTI-PLATFORM │   │
+│   │                 │  │                 │  │                 │   │
+│   │  Workflow       │  │  Real-time      │  │  Web, Desktop,  │   │
+│   │  automation     │  │  multiplayer    │  │  Mobile, and    │   │
+│   │  with 100+      │  │  editing with   │  │  Browser        │   │
+│   │  integrations   │  │  OT conflict    │  │  Extensions     │   │
+│   │                 │  │  resolution     │  │                 │   │
+│   └─────────────────┘  └─────────────────┘  └─────────────────┘   │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
 ```
 
 ---
