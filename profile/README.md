@@ -18,6 +18,15 @@
 
 ---
 
+<div align="center">
+  <img src="https://www.taskade.com/static_images/create-your-app-in-minutes-v2.gif" alt="Taskade Genesis — Build AI apps from a single prompt" width="720">
+  <br><br>
+  <b>150,000+ apps generated</b> · <b>500K+ agents deployed</b> · <b>3M+ automation runs</b><br>
+  Trusted by teams at <b>3M</b> · <b>Nike</b> · <b>Tesla</b> · <b>Netflix</b> · <b>Airbnb</b> · <b>Disney</b> · <b>Adobe</b> · <b>ESPN</b> · Rated <b>4.8/5</b> across 9,300+ reviews
+</div>
+
+---
+
 ## What is Taskade?
 
 Taskade is the **execution layer for ideas** — a real-time collaborative workspace where AI agents build, automate, and run live applications from a single prompt. No code. No deployment. No permission required.
@@ -121,6 +130,10 @@ Every Taskade workspace is a living system built on three pillars:
 
 ## What You Can Build
 
+| Client Portal | CRM Dashboard | Storefront |
+|:---:|:---:|:---:|
+| <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-client-portal-dashboard.gif" width="280" alt="Client portal built with Taskade Genesis"> | <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-crm-for-sales-teams.gif" width="280" alt="CRM for sales teams built with Taskade Genesis"> | <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-shopify-style-storefront.gif" width="280" alt="Storefront built with Taskade Genesis"> |
+
 Explore and clone ready-made AI app kits from the **[Taskade Community](https://taskade.com/community)**:
 
 | Category | Examples | How It Works |
@@ -137,6 +150,12 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
 ---
 
 ## AI Agents — Your Autonomous Workforce
+
+<div align="center">
+  <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-03-19-pick-your-model-per-agent.gif" alt="Pick your AI model per agent — 11+ frontier models" width="600">
+</div>
+
+<br>
 
 ```
  ┌──────────────────────────────────────────────────────────────────┐
@@ -264,35 +283,16 @@ npx @taskade/mcp@latest
 
 ---
 
-## The Taskade Stack
+## Pricing
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                         THE TASKADE STACK                                │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐       │
-│   │  WORKSPACE DNA  │  │  GENESIS ENGINE │  │  AGENT RUNTIME  │       │
-│   │                 │  │                 │  │                 │       │
-│   │  Live project   │  │  Prompt-to-app  │  │  Multi-agent    │       │
-│   │  databases with │  │  builder with   │  │  collaboration  │       │
-│   │  real-time sync │  │  custom domains │  │  across your    │       │
-│   │  and conflict   │  │  and edge       │  │  entire         │       │
-│   │  resolution     │  │  deployment     │  │  workspace      │       │
-│   └─────────────────┘  └─────────────────┘  └─────────────────┘       │
-│                                                                         │
-│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐       │
-│   │  FLOW ENGINE    │  │  COLLABORATION  │  │  MULTI-PLATFORM │       │
-│   │                 │  │                 │  │                 │       │
-│   │  Workflow       │  │  Real-time      │  │  Web, Desktop,  │       │
-│   │  automation     │  │  multiplayer    │  │  Mobile, and    │       │
-│   │  with 100+      │  │  editing with   │  │  Browser        │       │
-│   │  integrations   │  │  OT conflict    │  │  Extensions     │       │
-│   │                 │  │  resolution     │  │                 │       │
-│   └─────────────────┘  └─────────────────┘  └─────────────────┘       │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+| Free | Starter | Pro | Business | Enterprise |
+|:---:|:---:|:---:|:---:|:---:|
+| **$0/mo** | **$6/mo** | **$16/mo** | **$40/mo** | **Custom** |
+| 1K credits | 10K credits | 50K credits | 150K credits | Custom |
+| 1 agent | 3 agents | Unlimited | Unlimited | Unlimited |
+| 1 user | 3 users | 10 users | Unlimited | Unlimited |
+
+*Annual billing. [Compare all plans →](https://taskade.com/pricing)*
 
 ---
 
