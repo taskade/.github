@@ -19,7 +19,7 @@
 ---
 
 <div align="center">
-  <img src="https://www.taskade.com/static_images/create-your-app-in-minutes-v2.gif" alt="Taskade Genesis — Build AI apps from a single prompt" width="720">
+  <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/create-app.gif" alt="Taskade Genesis — Build AI apps from a single prompt" width="720">
   <br><br>
   <b>150,000+ apps generated</b> · <b>500K+ agents deployed</b> · <b>3M+ automation runs</b><br>
   Trusted by teams at <b>3M</b> · <b>Nike</b> · <b>Tesla</b> · <b>Netflix</b> · <b>Airbnb</b> · <b>Disney</b> · <b>Adobe</b> · <b>ESPN</b> · Rated <b>4.8/5</b> across 9,300+ reviews
@@ -132,7 +132,7 @@ Every Taskade workspace is a living system built on three pillars:
 
 | Client Portal | CRM Dashboard | Storefront |
 |:---:|:---:|:---:|
-| <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-client-portal-dashboard.gif" width="280" alt="Client portal built with Taskade Genesis"> | <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-crm-for-sales-teams.gif" width="280" alt="CRM for sales teams built with Taskade Genesis"> | <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-04-08-shopify-style-storefront.gif" width="280" alt="Storefront built with Taskade Genesis"> |
+| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/client-portal.gif" width="280" alt="Client portal built with Taskade Genesis"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/crm-dashboard.gif" width="280" alt="CRM for sales teams built with Taskade Genesis"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/storefront.gif" width="280" alt="Storefront built with Taskade Genesis"> |
 
 Explore and clone ready-made AI app kits from the **[Taskade Community](https://taskade.com/community)**:
 
@@ -152,7 +152,7 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
 ## AI Agents — Your Autonomous Workforce
 
 <div align="center">
-  <img src="https://www.taskade.com/static_images/newsletter-gifs/2026-03-19-pick-your-model-per-agent.gif" alt="Pick your AI model per agent — 11+ frontier models" width="600">
+  <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/model-selector.gif" alt="Pick your AI model per agent — 11+ frontier models" width="600">
 </div>
 
 <br>
