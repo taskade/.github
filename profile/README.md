@@ -55,20 +55,20 @@ Every Taskade workspace is a living system built on three pillars:
 │               The architecture behind every Taskade app                 │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐  │
-│   │      MEMORY       │  │   INTELLIGENCE    │  │    EXECUTION      │  │
-│   │    ┌─────────┐    │  │    ┌─────────┐    │  │    ┌─────────┐    │  │
-│   │    │Projects │    │  │    │   AI    │    │  │    │Workflows│    │  │
-│   │    │   as    │    │  │    │ Agents  │    │  │    │   that  │    │  │
-│   │    │  live   │    │  │    │  that   │    │  │    │  run    │    │  │
-│   │    │databases│    │  │    │  think  │    │  │    │24 / 7   │    │  │
-│   │    └─────────┘    │  │    └─────────┘    │  │    └─────────┘    │  │
-│   │                   │  │                   │  │                   │  │
-│   │ • Structured data │  │ • Reasoning       │  │ • Triggers        │  │
-│   │ • Real-time sync  │  │ • Planning        │  │ • Actions         │  │
-│   │ • Version history │  │ • Context-aware   │  │ • 100+ services   │  │
-│   │ • OT conflict res │  │ • Multi-model     │  │ • Durable engine  │  │
-│   └───────────────────┘  └───────────────────┘  └───────────────────┘  │
+│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐   │
+│   │      MEMORY       │  │   INTELLIGENCE    │  │    EXECUTION      │   │
+│   │    ┌─────────┐    │  │    ┌─────────┐    │  │    ┌─────────┐    │   │
+│   │    │Projects │    │  │    │   AI    │    │  │    │Workflows│    │   │
+│   │    │   as    │    │  │    │ Agents  │    │  │    │   that  │    │   │
+│   │    │  live   │    │  │    │  that   │    │  │    │  run    │    │   │
+│   │    │databases│    │  │    │  think  │    │  │    │24 / 7   │    │   │
+│   │    └─────────┘    │  │    └─────────┘    │  │    └─────────┘    │   │
+│   │                   │  │                   │  │                   │   │
+│   │ • Structured data │  │ • Reasoning       │  │ • Triggers        │   │
+│   │ • Real-time sync  │  │ • Planning        │  │ • Actions         │   │
+│   │ • Version history │  │ • Context-aware   │  │ • 100+ services   │   │
+│   │ • OT conflict res │  │ • Multi-model     │  │ • Durable engine  │   │
+│   └───────────────────┘  └───────────────────┘  └───────────────────┘   │
 │            ▲                      ▲                      ▲              │
 │            └──────────────────────┴──────────────────────┘              │
 │                         Continuous Feedback Loop                        │
@@ -191,34 +191,41 @@ Explore and clone ready-made AI app kits from the **[Taskade Community](https://
 
 ## Open Source
 
+Taskade builds in the open. Star the repos that are useful to you:
+
 | Repository | Description | |
 |------------|-------------|---|
 | [`taskade/mcp`](https://github.com/taskade/mcp) | Official MCP server + OpenAPI-to-MCP codegen. Connect Taskade to Claude, Cursor, and more. | ![GitHub stars](https://img.shields.io/github/stars/taskade/mcp?style=flat-square) |
 | [`taskade/docs`](https://github.com/taskade/docs) | API documentation and developer guides | ![GitHub stars](https://img.shields.io/github/stars/taskade/docs?style=flat-square) |
 | [`taskade/awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) | Curated list of tools and resources for vibe coding | ![GitHub stars](https://img.shields.io/github/stars/taskade/awesome-vibe-coding?style=flat-square) |
+| [`taskade/taskade`](https://github.com/taskade/taskade) | Docs, guides, honest comparisons, and the clone-ready App Kits Gallery. | ![GitHub stars](https://img.shields.io/github/stars/taskade/taskade?style=flat-square) |
 | [`taskade/temporal-parser`](https://github.com/taskade/temporal-parser) | ISO 8601 / RFC 3339 / IXDTF parser built with compiler design principles | ![GitHub stars](https://img.shields.io/github/stars/taskade/temporal-parser?style=flat-square) |
 | [`taskade/uri-parser`](https://github.com/taskade/uri-parser) | URI parser library | ![GitHub stars](https://img.shields.io/github/stars/taskade/uri-parser?style=flat-square) |
 | [`taskade/zapier`](https://github.com/taskade/zapier) | Official Zapier integration | ![GitHub stars](https://img.shields.io/github/stars/taskade/zapier?style=flat-square) |
 | [`taskade/temporal-helm-charts`](https://github.com/taskade/temporal-helm-charts) | Temporal Helm charts for Kubernetes deployments | ![GitHub stars](https://img.shields.io/github/stars/taskade/temporal-helm-charts?style=flat-square) |
 | [`taskade/actions-runner-controller`](https://github.com/taskade/actions-runner-controller) | Kubernetes controller for GitHub Actions self-hosted runners | ![GitHub stars](https://img.shields.io/github/stars/taskade/actions-runner-controller?style=flat-square) |
 
+<p align="center">
+  <a href="https://github.com/taskade"><b>⭐ Star our repos on GitHub →</b></a>
+</p>
+
 ### MCP Server — Connect Taskade to Any AI Tool
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
 │                                                                    │
-│   Claude Desktop ─┐                                               │
-│                   │     ┌──────────────────┐     ┌─────────────┐  │
-│   Cursor IDE ─────┼────▶│  @taskade/mcp   │────▶│  Taskade    │  │
-│                   │     │                  │     │  Workspace  │  │
-│   Any MCP Client ─┘     │  Official MCP    │     │             │  │
-│                         │  Server          │     │  Projects   │  │
-│                         │                  │     │  Agents     │  │
-│                         │  + OpenAPI-to-   │     │  Workflows  │  │
-│                         │    MCP codegen   │     │  Genesis    │  │
-│                         └──────────────────┘     └─────────────┘  │
+│   Claude Desktop ─┐                                                │
+│                   │     ┌──────────────────┐     ┌─────────────┐   │
+│   Cursor IDE ─────┼────▶│   taskade/mcp    │────▶│   Taskade   │   │
+│                   │     │                  │     │  Workspace  │   │
+│   Any MCP Client ─┘     │  Official MCP    │     │             │   │
+│                         │  Server          │     │  Projects   │   │
+│                         │                  │     │  Agents     │   │
+│                         │  + OpenAPI-to-   │     │  Workflows  │   │
+│                         │    MCP codegen   │     │  Genesis    │   │
+│                         └──────────────────┘     └─────────────┘   │
 │                                                                    │
-│   Install:  npx @taskade/mcp@latest                                │
+│   Install:  npx @taskade/mcp-server@latest                         │
 │                                                                    │
 └────────────────────────────────────────────────────────────────────┘
 ```
@@ -241,7 +248,7 @@ curl -X POST https://www.taskade.com/api/v1/projects \
 
 ```bash
 # Install and configure
-npx @taskade/mcp@latest
+npx @taskade/mcp-server@latest
 ```
 
 ### Resources
