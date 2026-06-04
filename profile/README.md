@@ -260,6 +260,23 @@ npx @taskade/mcp@latest
 
 ---
 
+## Open Source
+
+Taskade builds in the open. Star the repos that are useful to you:
+
+| Repo | What it is | Stars |
+|------|------------|-------|
+| [taskade/mcp](https://github.com/taskade/mcp) | Official Taskade MCP server — turn any OpenAPI API into AI agent tools for Claude, Cursor, and more. | [![mcp stars](https://img.shields.io/github/stars/taskade/mcp?style=flat-square&label=%E2%98%85)](https://github.com/taskade/mcp) |
+| [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) | A curated guide to vibe coding — building software with AI through natural-language prompts. | [![avc stars](https://img.shields.io/github/stars/taskade/awesome-vibe-coding?style=flat-square&label=%E2%98%85)](https://github.com/taskade/awesome-vibe-coding) |
+| [taskade/taskade](https://github.com/taskade/taskade) | Docs, guides, honest comparisons, and the clone-ready App Kits Gallery. | [![taskade stars](https://img.shields.io/github/stars/taskade/taskade?style=flat-square&label=%E2%98%85)](https://github.com/taskade/taskade) |
+| [taskade/taskade-sample-app](https://github.com/taskade/taskade-sample-app) | A Workspace DNA template for building Taskade Genesis apps. | [![sample stars](https://img.shields.io/github/stars/taskade/taskade-sample-app?style=flat-square&label=%E2%98%85)](https://github.com/taskade/taskade-sample-app) |
+
+<p align="center">
+  <a href="https://github.com/taskade"><b>⭐ Star our repos on GitHub →</b></a>
+</p>
+
+---
+
 ## Platform
 
 ```
