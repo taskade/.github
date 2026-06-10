@@ -201,7 +201,8 @@ Taskade builds in the open. Star the repos that are useful to you:
 | [`taskade/taskade`](https://github.com/taskade/taskade) | Docs, guides, honest comparisons, and the clone-ready App Kits Gallery. | ![GitHub stars](https://img.shields.io/github/stars/taskade/taskade?style=flat-square) |
 | [`taskade/temporal-parser`](https://github.com/taskade/temporal-parser) | ISO 8601 / RFC 3339 / IXDTF parser built with compiler design principles | ![GitHub stars](https://img.shields.io/github/stars/taskade/temporal-parser?style=flat-square) |
 | [`taskade/uri-parser`](https://github.com/taskade/uri-parser) | URI parser library | ![GitHub stars](https://img.shields.io/github/stars/taskade/uri-parser?style=flat-square) |
-| [`taskade/zapier`](https://github.com/taskade/zapier) | Official Zapier integration | ![GitHub stars](https://img.shields.io/github/stars/taskade/zapier?style=flat-square) |
+| [Integration Kit](https://github.com/taskade/integrations) | Public source-of-truth for Taskade actions & triggers (Zapier, n8n) built on the public API | ![GitHub stars](https://img.shields.io/github/stars/taskade/integrations?style=flat-square) |
+| [Genesis Sample App](https://github.com/taskade/taskade-sample-app) | A Workspace DNA template for building AI-powered Taskade Genesis apps — one prompt to a working app | ![GitHub stars](https://img.shields.io/github/stars/taskade/taskade-sample-app?style=flat-square) |
 | [`taskade/temporal-helm-charts`](https://github.com/taskade/temporal-helm-charts) | Temporal Helm charts for Kubernetes deployments | ![GitHub stars](https://img.shields.io/github/stars/taskade/temporal-helm-charts?style=flat-square) |
 | [`taskade/actions-runner-controller`](https://github.com/taskade/actions-runner-controller) | Kubernetes controller for GitHub Actions self-hosted runners | ![GitHub stars](https://img.shields.io/github/stars/taskade/actions-runner-controller?style=flat-square) |
 
