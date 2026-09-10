@@ -203,8 +203,6 @@ Taskade builds in the open. Star the repos that are useful to you:
 | [`taskade/uri-parser`](https://github.com/taskade/uri-parser) | URI parser library | ![GitHub stars](https://img.shields.io/github/stars/taskade/uri-parser?style=flat-square) |
 | [Integration Kit](https://github.com/taskade/integrations) | Public source-of-truth for Taskade actions & triggers (Zapier, n8n) built on the public API | ![GitHub stars](https://img.shields.io/github/stars/taskade/integrations?style=flat-square) |
 | [Genesis Sample App](https://github.com/taskade/taskade-sample-app) | A Workspace DNA template for building AI-powered Taskade Genesis apps — one prompt to a working app | ![GitHub stars](https://img.shields.io/github/stars/taskade/taskade-sample-app?style=flat-square) |
-| [`taskade/temporal-helm-charts`](https://github.com/taskade/temporal-helm-charts) | Temporal Helm charts for Kubernetes deployments | ![GitHub stars](https://img.shields.io/github/stars/taskade/temporal-helm-charts?style=flat-square) |
-| [`taskade/actions-runner-controller`](https://github.com/taskade/actions-runner-controller) | Kubernetes controller for GitHub Actions self-hosted runners | ![GitHub stars](https://img.shields.io/github/stars/taskade/actions-runner-controller?style=flat-square) |
 
 <p align="center">
   <a href="https://github.com/taskade"><b>⭐ Star our repos on GitHub →</b></a>
