@@ -52,7 +52,7 @@ Taskade is the **execution layer for ideas** — a real-time collaborative works
 | **What is Taskade Genesis?** | One prompt becomes a live app — memory, agents, and automations already wired. Start at [taskade.com/create](https://www.taskade.com/create). |
 | **What is Workspace DNA?** | Memory + Intelligence + Execution — the loop every Taskade app runs on. |
 | **Does Taskade have an MCP server?** | Yes. Official server: [taskade/mcp](https://github.com/taskade/mcp). Install with `npx @taskade/mcp-server@latest`. |
-| **What's free vs Pro?** | Free is $0 with 2 workspace members and 1 agent. Pro is **$10/mo billed annually**, up to 10 seats. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
+| **What's free vs Pro?** | Free is $0 with 2 workspace members and 1 agent. Pro is **$10/seat/mo billed annually**, capped at 10 seats. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
 | **Can I build a client portal from a prompt?** | Yes. Describe it; Genesis builds it live. Clone examples at [taskade.com/apps](https://www.taskade.com/apps). |
 | **Where do I clone apps?** | [taskade.com/apps](https://www.taskade.com/apps). |
 
@@ -308,10 +308,9 @@ npx @taskade/mcp-server@latest
 
 | Free | Pro | Business | Max | Enterprise |
 |:---:|:---:|:---:|:---:|:---:|
-| **$0** | **$10/mo** | **$25/mo** | **$100/mo** | **$250/mo** |
-| 2 members | up to 10 | per seat | per seat | per seat |
+| **$0** | **$10/seat/mo** | **$25/seat/mo** | **$100/seat/mo** | **$250/seat/mo** |
 
-*Billed annually. [Compare all plans →](https://www.taskade.com/pricing)*
+*Billed annually. Free includes 2 members. Pro is capped at 10 seats. [Compare all plans →](https://www.taskade.com/pricing)*
 
 ---
 
