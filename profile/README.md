@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis — Workspace DNA" width="1500">
+  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis — Workspace DNA" width="100%">
 </p>
 
 <p align="center">
-  <b>One prompt → one app.</b> Build without permission.
+  <b>One prompt → one app.</b> <a href="https://www.taskade.com/create">Build without permission.</a>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
   <b>150,000+ apps</b> · <b>500K+ agents</b> · <b>3M+ runs</b>
   · <b>4.8/5</b> across 9,300+ reviews
   <br>
-  3M · Nike · Tesla · Netflix · Airbnb · Disney · Adobe · ESPN
+  Trusted by teams at <b>3M</b> · Nike · Tesla · Netflix · Airbnb · Disney · Adobe · ESPN
 </p>
 
 > **TL;DR:** Taskade Genesis turns one prompt into a live, multiplayer app — projects as memory, agents as intelligence, automations as execution. **150,000+ apps generated.** Clone a kit at [taskade.com/apps](https://www.taskade.com/apps) or start from scratch at [taskade.com/create](https://www.taskade.com/create).
@@ -33,7 +33,7 @@
 
 One prompt. A live app. Edit it. Ship it.
 
-| Prompt → app | Click to edit | Publish |
+| Create | Edit | Publish |
 |:---:|:---:|:---:|
 | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/create-app.gif" width="280" alt="Taskade Genesis — build an app from a single prompt"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/click-to-edit.gif" width="280" alt="Click-to-edit a Genesis app visually"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/publish-and-share.gif" width="280" alt="Publish a Genesis app to a shareable URL"> |
 
@@ -64,6 +64,7 @@ Taskade is the **execution layer for ideas** — a real-time workspace where AI 
 | **What's free vs Pro?** | Free is $0 with 2 workspace members and 1 agent. Pro is **$10/seat/mo billed annually**, capped at 10 seats. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
 | **Can I build a client portal from a prompt?** | Yes. Describe it; Genesis builds it live. Clone examples at [taskade.com/apps](https://www.taskade.com/apps). |
 | **Where do I clone apps?** | [taskade.com/apps](https://www.taskade.com/apps). |
+| **Where are developer docs?** | [taskade.com/docs](https://www.taskade.com/docs) · [taskade.com/learn](https://www.taskade.com/learn) · [llms.txt](https://www.taskade.com/llms.txt) |
 
 ---
 
@@ -76,11 +77,10 @@ Memory feeds Intelligence. Intelligence triggers Execution. Execution writes bac
 | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/features/workspace-memory.gif" width="280" alt="Projects as live workspace memory"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/multi-agent-run.gif" width="280" alt="AI agents running together in a workspace"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/automations/connect-tools.gif" width="280" alt="Automations connecting tools across 100+ services"> |
 | Projects are live databases | Agents that reason and act | Workflows that run themselves |
 
-| Pillar | What it does | In practice |
-|--------|-------------|-------------|
-| **Memory** | Projects are live, queryable databases — not static docs | Your data powers your apps in real time |
-| **Intelligence** | AI agents that plan and act across the workspace — 15+ frontier models from OpenAI, Anthropic, and open-weight providers | Agents handle updates, research, and decisions |
-| **Execution** | Workflows that connect [100+ services](https://www.taskade.com/integrations) | Automations trigger on events and keep running |
+| Train | Customize | Models |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/agent-training.gif" width="280" alt="Train an AI agent on your workspace data"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/customize-agent.gif" width="280" alt="Customize an AI agent's tools and instructions"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/model-selector.gif" width="280" alt="Pick your AI model per agent — 15+ frontier models"> |
+| Your docs and projects | Tools and instructions | 15+ frontier models from OpenAI, Anthropic, and open-weight providers |
 
 ---
 
@@ -91,6 +91,9 @@ Clone a finished kit, or describe one.
 | Client portal | CRM | Storefront |
 |:---:|:---:|:---:|
 | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/client-portal.gif" width="280" alt="Client portal built with Taskade Genesis"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/crm-dashboard.gif" width="280" alt="CRM dashboard built with Taskade Genesis"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/apps/storefront.gif" width="280" alt="Storefront built with Taskade Genesis"> |
+
+<details>
+<summary><b>8 app categories at taskade.com/apps</b></summary>
 
 | Category | Examples | How it works |
 |----------|----------|--------------|
@@ -103,13 +106,9 @@ Clone a finished kit, or describe one.
 | [**Commerce**](https://www.taskade.com/apps/commerce) | Storefronts, orders, catalogs | End-to-end commerce |
 | [**Quick Apps**](https://www.taskade.com/apps/quick-apps) | Calculators, converters, mini-tools | Instant single-purpose apps |
 
-More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps)
+</details>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/model-selector.gif" width="480" alt="Pick your AI model per agent — 15+ frontier models from OpenAI, Anthropic, and open-weight providers">
-  <br>
-  <em>15+ frontier models from OpenAI, Anthropic, and open-weight providers.</em>
-</p>
+More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps)
 
 ---
 
@@ -144,16 +143,14 @@ curl -X POST https://www.taskade.com/api/v1/projects \
 | Developer docs | [taskade.com/docs](https://www.taskade.com/docs) |
 | API reference | [docs.taskade.com](https://docs.taskade.com) |
 | Learn Taskade | [taskade.com/learn](https://www.taskade.com/learn) |
+| llms.txt | [taskade.com/llms.txt](https://www.taskade.com/llms.txt) |
 | MCP server | [github.com/taskade/mcp](https://github.com/taskade/mcp) |
 | Apps | [taskade.com/apps](https://www.taskade.com/apps) |
 | Downloads | [taskade.com/downloads](https://www.taskade.com/downloads) |
 
-```
- Web · macOS · Windows · iOS · Android · Chrome · Firefox · Edge
-```
-
 <p align="center">
-  <a href="https://www.taskade.com/downloads">Download Taskade</a>
+  Web · macOS · Windows · iOS · Android · Chrome · Firefox · Edge
+  · <a href="https://www.taskade.com/downloads">Download Taskade</a>
 </p>
 
 ---
