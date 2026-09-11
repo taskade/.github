@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis — Workspace DNA" width="1500">
+</p>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║                                                                          ║
