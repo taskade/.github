@@ -25,7 +25,7 @@
   Trusted by teams at <b>3M</b> · <b>Nike</b> · <b>Tesla</b> · <b>Netflix</b> · <b>Airbnb</b> · <b>Disney</b> · <b>Adobe</b> · <b>ESPN</b> · Rated <b>4.8/5</b> across 9,300+ reviews
 </div>
 
-> **TL;DR:** Taskade Genesis turns one prompt into a live, multiplayer app — projects as memory, agents as intelligence, automations as execution. **150,000+ apps generated.** No code, no deploy step: clone a kit at [taskade.com/apps](https://www.taskade.com/apps) or build from scratch at [taskade.com/create](https://www.taskade.com/create).
+> **TL;DR:** Taskade Genesis turns one prompt into a live, multiplayer app — projects as memory, agents as intelligence, automations as execution. **150,000+ apps generated.** No code, no deploy step: clone a ready kit at [taskade.com/apps](https://www.taskade.com/apps) or build from scratch at [taskade.com/create](https://www.taskade.com/create).
 
 ---
 
