@@ -10,6 +10,7 @@
   <a href="https://taskade.com"><b>Website</b></a>
   · <a href="https://www.taskade.com/docs"><b>Docs</b></a>
   · <a href="https://docs.taskade.com"><b>API</b></a>
+  · <a href="#use-taskade-from-your-ai-agent"><b>MCP</b></a>
   · <a href="https://www.taskade.com/apps"><b>Apps</b></a>
   · <a href="https://www.taskade.com/blog"><b>Blog</b></a>
   · <a href="https://www.taskade.com/learn"><b>Learn</b></a>
@@ -109,6 +110,30 @@ Clone a finished kit, or describe one.
 </details>
 
 More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps)
+
+---
+
+## Use Taskade from your AI agent
+
+Connect Claude, ChatGPT, Cursor, VS Code, or any agent to your Taskade workspace. Sign in once. Nothing to host.
+
+```bash
+# Claude Code: the Taskade plugin (hosted MCP server + skills)
+claude plugin marketplace add taskade/mcp
+claude plugin install taskade@taskade
+
+# Any agent: one skill file that teaches it the Taskade tools
+npx skills add https://www.taskade.com/SKILL.md
+```
+
+**Hosted MCP server:** `https://www.taskade.com/mcp` · OAuth sign-in · Claude, ChatGPT, Cursor, VS Code · paid plans
+
+| Your agent can | Taskade EVE does |
+|----------------|------------------|
+| Read and update projects, tasks, agents, and app files with **50 hosted tools** | Build and publish apps |
+| Run a "When asked" automation and read its run history | Create and edit automations |
+
+[Plugin + MCP server](https://github.com/taskade/mcp) · [SKILL.md](https://www.taskade.com/SKILL.md) · [llms.txt](https://www.taskade.com/llms.txt) · [Public API docs](https://www.taskade.com/api/documentation/v2)
 
 ---
 
