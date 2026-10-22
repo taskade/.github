@@ -140,7 +140,7 @@ npx skills add https://www.taskade.com/SKILL.md
 
 | Your agent can | Taskade EVE does |
 |----------------|------------------|
-| Read and update projects, tasks, agents, and app files with **50 hosted tools** | Build and publish apps |
+| Read and update projects, tasks, agents, and app files with the **hosted MCP tools** | Build and publish apps |
 | Run a "When asked" automation and read its run history | Create and edit automations |
 
 [Plugin + MCP server](https://github.com/taskade/mcp) · [SKILL.md](https://www.taskade.com/SKILL.md) · [llms.txt](https://www.taskade.com/llms.txt) · [Public API docs](https://www.taskade.com/api/documentation/v2)
