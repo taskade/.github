@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <b>1M+ users</b> · <b>150,000+ apps</b> · <b>500K+ AI agents</b> · <b>3M+ automation runs</b>
+  <b>1M+ users</b> · <b>150,000+ apps</b> · <b>500K+ AI agents</b> · <b>1M+ automations</b>
   · <a href="https://www.taskade.com/reviews"><b>4.7/5</b> on Capterra and Product Hunt</a> · Backed by Y Combinator
   <br>
   Trusted by teams at <b>3M</b> · Nike · Tesla · Netflix · Airbnb · Disney · Adobe · ESPN
