@@ -1,9 +1,22 @@
 <p align="center">
-  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis — Workspace DNA" width="100%">
+  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis, the AI app builder with AI agents and workflow automation" width="100%">
 </p>
 
 <p align="center">
-  <b>One prompt → one app.</b> <a href="https://www.taskade.com/create">Build without permission.</a>
+  <b>One prompt → one live app.</b> Taskade Genesis builds the data, AI agents, automations, and interface for you, all wired together. We call it Workspace DNA.
+</p>
+
+<p align="center">
+  <a href="https://www.taskade.com"><b>Start building free at taskade.com →</b></a>
+</p>
+
+<p align="center">
+  <b>For AI agents and developers:</b>
+  <a href="#connect-your-ai-agent-mcp-server-and-claude-code-plugin">Claude Code plugin</a>
+  · <a href="https://www.taskade.com/SKILL.md">SKILL.md</a>
+  · <a href="https://www.taskade.com/mcp">Hosted MCP server</a>
+  · <a href="https://www.taskade.com/api/documentation/v2">Public API</a>
+  · <a href="https://www.taskade.com/llms.txt">llms.txt</a>
 </p>
 
 <p align="center">
@@ -19,13 +32,11 @@
 </p>
 
 <p align="center">
-  <b>150,000+ apps</b> · <b>500K+ agents</b> · <b>3M+ runs</b>
-  · <b>4.8/5</b> across 9,300+ reviews
+  <b>1M+ users</b> · <b>150,000+ apps</b> · <b>500K+ AI agents</b> · <b>1M+ automations</b>
+  · <a href="https://www.taskade.com/reviews"><b>4.7/5</b> on Capterra and Product Hunt</a> · Backed by Y Combinator
   <br>
   Trusted by teams at <b>3M</b> · Nike · Tesla · Netflix · Airbnb · Disney · Adobe · ESPN
 </p>
-
-> **TL;DR:** Taskade Genesis turns one prompt into a live, multiplayer app — projects as memory, agents as intelligence, automations as execution. **150,000+ apps generated.** Clone a kit at [taskade.com/apps](https://www.taskade.com/apps) or start from scratch at [taskade.com/create](https://www.taskade.com/create).
 
 ---
 
@@ -35,13 +46,13 @@ One prompt. A live app. Edit it. Ship it.
 
 | Create | Edit | Publish |
 |:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/create-app.gif" width="280" alt="Taskade Genesis — build an app from a single prompt"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/click-to-edit.gif" width="280" alt="Click-to-edit a Genesis app visually"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/publish-and-share.gif" width="280" alt="Publish a Genesis app to a shareable URL"> |
+| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/create-app.gif" width="280" alt="Taskade Genesis AI app builder: build an app from a single prompt"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/click-to-edit.gif" width="280" alt="Click-to-edit a Genesis app visually"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/genesis/publish-and-share.gif" width="280" alt="Publish a Genesis app to a shareable URL"> |
 
 ---
 
-## What is Taskade?
+## What is Taskade? The AI app builder for live apps
 
-Taskade is the **execution layer for ideas** — a real-time workspace where AI agents build, automate, and run live applications from a single prompt. No code. No deploy step. No permission required.
+Taskade is the **execution layer for ideas**: a real-time workspace where AI agents build, automate, and run live applications from a single prompt. No code. No deploy step. No permission required.
 
 ```
    Describe what you want
@@ -58,17 +69,17 @@ Taskade is the **execution layer for ideas** — a real-time workspace where AI 
 
 | Question | Answer |
 |----------|--------|
-| **What is Taskade Genesis?** | One prompt becomes a live app — memory, agents, and automations already wired. Start at [taskade.com/create](https://www.taskade.com/create). |
-| **What is Workspace DNA?** | Memory + Intelligence + Execution — the loop every Taskade app runs on. |
-| **Does Taskade have an MCP server?** | Yes. Official server: [taskade/mcp](https://github.com/taskade/mcp). Install with `npx @taskade/mcp-server@latest`. |
-| **What's free vs Pro?** | Free is $0 with 2 workspace members and 1 agent. Pro is **$10/seat/mo billed annually**, capped at 10 seats. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
+| **What is Taskade Genesis?** | An AI app builder. One prompt becomes a live app with memory, agents, and automations already wired. Start at [taskade.com/create](https://www.taskade.com/create). |
+| **What is Workspace DNA?** | Memory + Intelligence + Execution: the loop every Taskade app runs on. |
+| **Does Taskade have an MCP server?** | Yes. The hosted server is `https://www.taskade.com/mcp` (OAuth, paid plans). In Claude Code, install the `taskade` plugin. See [Connect your AI agent](#connect-your-ai-agent-mcp-server-and-claude-code-plugin) and [taskade/mcp](https://github.com/taskade/mcp). |
+| **What's free vs Pro?** | Free is $0 with up to 3 apps and 2 workspace members. Pro is **$10/mo billed yearly** with unlimited live apps and 10 members. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
 | **Can I build a client portal from a prompt?** | Yes. Describe it; Genesis builds it live. Clone examples at [taskade.com/apps](https://www.taskade.com/apps). |
 | **Where do I clone apps?** | [taskade.com/apps](https://www.taskade.com/apps). |
-| **Where are developer docs?** | [taskade.com/docs](https://www.taskade.com/docs) · [taskade.com/learn](https://www.taskade.com/learn) · [llms.txt](https://www.taskade.com/llms.txt) |
+| **Where are developer docs?** | [taskade.com/docs](https://www.taskade.com/docs) · [Public API](https://www.taskade.com/api/documentation/v2) · [llms.txt](https://www.taskade.com/llms.txt) · [taskade.com/learn](https://www.taskade.com/learn) |
 
 ---
 
-## Workspace DNA
+## Workspace DNA: projects, AI agents, and workflow automation
 
 Memory feeds Intelligence. Intelligence triggers Execution. Execution writes back to Memory.
 
@@ -79,8 +90,8 @@ Memory feeds Intelligence. Intelligence triggers Execution. Execution writes bac
 
 | Train | Customize | Models |
 |:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/agent-training.gif" width="280" alt="Train an AI agent on your workspace data"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/customize-agent.gif" width="280" alt="Customize an AI agent's tools and instructions"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/model-selector.gif" width="280" alt="Pick your AI model per agent — 15+ frontier models"> |
-| Your docs and projects | Tools and instructions | 15+ frontier models from OpenAI, Anthropic, and open-weight providers |
+| <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/agent-training.gif" width="280" alt="Train an AI agent on your workspace data"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/customize-agent.gif" width="280" alt="Customize an AI agent's tools and instructions"> | <img src="https://raw.githubusercontent.com/taskade/taskade/main/media/agents/model-selector.gif" width="280" alt="Pick an AI model for each agent from frontier models by top AI labs"> |
+| Your docs and projects | Tools and instructions | Frontier models from top AI labs |
 
 ---
 
@@ -112,13 +123,37 @@ More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps)
 
 ---
 
-## Open source
+## Connect your AI agent (MCP server and Claude Code plugin)
+
+Connect Claude, ChatGPT, Cursor, VS Code, or any agent to your Taskade workspace. Sign in once. Nothing to host.
+
+```bash
+# Claude Code: the Taskade plugin (hosted MCP server + skills)
+claude plugin marketplace add taskade/mcp
+claude plugin install taskade@taskade
+
+# Any agent: one skill file that teaches it the Taskade tools
+npx skills add https://www.taskade.com/SKILL.md
+```
+
+**Hosted MCP server:** `https://www.taskade.com/mcp` · OAuth sign-in · Claude, ChatGPT, Cursor, VS Code · paid plans
+
+| Your agent can | Taskade EVE does |
+|----------------|------------------|
+| Read and update projects, tasks, agents, and app files with the **hosted MCP tools** | Build and publish apps |
+| Run a "When asked" automation and read its run history | Create and edit automations |
+
+[Plugin + MCP server](https://github.com/taskade/mcp) · [SKILL.md](https://www.taskade.com/SKILL.md) · [llms.txt](https://www.taskade.com/llms.txt) · [Public API docs](https://www.taskade.com/api/documentation/v2)
+
+---
+
+## Open source repositories
 
 Star the repos that are useful to you. The product source is private; these are the public tools.
 
 | Repository | What it is |
 |------------|------------|
-| [`taskade/mcp`](https://github.com/taskade/mcp) ![stars](https://img.shields.io/github/stars/taskade/mcp?style=flat-square) | Official MCP server + OpenAPI-to-MCP codegen |
+| [`taskade/mcp`](https://github.com/taskade/mcp) ![stars](https://img.shields.io/github/stars/taskade/mcp?style=flat-square) | Claude Code plugin, MCP server, and OpenAPI-to-MCP codegen |
 | [`taskade/docs`](https://github.com/taskade/docs) ![stars](https://img.shields.io/github/stars/taskade/docs?style=flat-square) | API documentation and developer guides |
 | [`taskade/taskade`](https://github.com/taskade/taskade) ![stars](https://img.shields.io/github/stars/taskade/taskade?style=flat-square) | Public docs, honest comparisons, clone-ready App Kits |
 | [`taskade/awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) ![stars](https://img.shields.io/github/stars/taskade/awesome-vibe-coding?style=flat-square) | Curated vibe-coding tools and resources |
@@ -128,23 +163,23 @@ Star the repos that are useful to you. The product source is private; these are 
 | [`taskade/taskade-sample-app`](https://github.com/taskade/taskade-sample-app) ![stars](https://img.shields.io/github/stars/taskade/taskade-sample-app?style=flat-square) | Workspace DNA sample Genesis app |
 
 ```bash
-# MCP — connect Claude, Cursor, or any client to your workspace
+# Local MCP server (stdio), for clients without remote MCP. Set TASKADE_API_KEY first.
 npx @taskade/mcp-server@latest
 
-# REST — create a project
+# REST API: create a project from markdown (token at taskade.com/settings/api)
 curl -X POST https://www.taskade.com/api/v1/projects \
   -H "Authorization: Bearer YOUR_API_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"title": "My Project", "folder_id": "FOLDER_ID"}'
+  -d '{"folderId": "FOLDER_ID", "contentType": "text/markdown", "content": "# My Project\n- First task"}'
 ```
 
 | Resource | Link |
 |----------|------|
 | Developer docs | [taskade.com/docs](https://www.taskade.com/docs) |
-| API reference | [docs.taskade.com](https://docs.taskade.com) |
+| API reference | [taskade.com/api/documentation/v2](https://www.taskade.com/api/documentation/v2) · [docs.taskade.com](https://docs.taskade.com) |
 | Learn Taskade | [taskade.com/learn](https://www.taskade.com/learn) |
 | llms.txt | [taskade.com/llms.txt](https://www.taskade.com/llms.txt) |
-| MCP server | [github.com/taskade/mcp](https://github.com/taskade/mcp) |
+| MCP server and plugin | [taskade.com/mcp](https://www.taskade.com/mcp) · [github.com/taskade/mcp](https://github.com/taskade/mcp) |
 | Apps | [taskade.com/apps](https://www.taskade.com/apps) |
 | Downloads | [taskade.com/downloads](https://www.taskade.com/downloads) |
 
@@ -159,9 +194,9 @@ curl -X POST https://www.taskade.com/api/v1/projects \
 
 | Free | Pro | Business | Max | Enterprise |
 |:---:|:---:|:---:|:---:|:---:|
-| **$0** | **$10/seat/mo** | **$25/seat/mo** | **$100/seat/mo** | **$250/seat/mo** |
+| **$0** | **$10/mo** | **$25/mo** | **$100/mo** | **$250/mo** |
 
-*Billed annually. Free includes 2 members. Pro is capped at 10 seats. [Compare all plans →](https://www.taskade.com/pricing)*
+*Billed yearly. Free includes 2 members, Pro includes 10, and Business and up include unlimited members. [Compare all plans →](https://www.taskade.com/pricing)*
 
 ---
 
