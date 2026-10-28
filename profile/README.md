@@ -122,6 +122,8 @@ Clone a finished kit, or describe one.
 
 More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps) · [all categories](https://www.taskade.com/apps/categories)
 
+By job → [CRMs](https://www.taskade.com/apps/crms) · [Helpdesks](https://www.taskade.com/apps/helpdesks) · [Chatbots](https://www.taskade.com/apps/chatbots) · [Finance](https://www.taskade.com/apps/finance)
+
 ---
 
 ## Connect your AI agent (MCP server and Claude Code plugin)
