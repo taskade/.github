@@ -74,7 +74,8 @@ Taskade is the **execution layer for ideas**: a real-time workspace where AI age
 | **Does Taskade have an MCP server?** | Yes. The hosted server is `https://www.taskade.com/mcp` (OAuth, paid plans). In Claude Code, install the `taskade` plugin. See [Connect your AI agent](#connect-your-ai-agent-mcp-server-and-claude-code-plugin) and [taskade/mcp](https://github.com/taskade/mcp). |
 | **What's free vs Pro?** | Free is $0 with up to 3 apps and 2 workspace members. Pro is **$10/mo billed yearly** with unlimited live apps and 10 members. Full matrix: [taskade.com/pricing](https://www.taskade.com/pricing). |
 | **Can I build a client portal from a prompt?** | Yes. Describe it; Genesis builds it live. Clone examples at [taskade.com/apps](https://www.taskade.com/apps). |
-| **Where do I clone apps?** | [taskade.com/apps](https://www.taskade.com/apps). |
+| **Where do I clone apps?** | [taskade.com/apps](https://www.taskade.com/apps) · [all categories](https://www.taskade.com/apps/categories). |
+| **What is TASKS.md?** | The build ledger a coding agent keeps: what was asked, decided, and built with evidence. Spec: [taskade/tasks.md](https://github.com/taskade/tasks.md). |
 | **Where are developer docs?** | [taskade.com/docs](https://www.taskade.com/docs) · [Public API](https://www.taskade.com/api/documentation/v2) · [llms.txt](https://www.taskade.com/llms.txt) · [taskade.com/learn](https://www.taskade.com/learn) |
 
 ---
@@ -119,7 +120,9 @@ Clone a finished kit, or describe one.
 
 </details>
 
-More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps)
+More kits and creator apps → [taskade.com/apps](https://www.taskade.com/apps) · [all categories](https://www.taskade.com/apps/categories)
+
+By job → [CRMs](https://www.taskade.com/apps/crms) · [Helpdesks](https://www.taskade.com/apps/helpdesks) · [Chatbots](https://www.taskade.com/apps/chatbots) · [Finance](https://www.taskade.com/apps/finance)
 
 ---
 
@@ -157,6 +160,7 @@ Star the repos that are useful to you. The product source is private; these are 
 | [`taskade/docs`](https://github.com/taskade/docs) ![stars](https://img.shields.io/github/stars/taskade/docs?style=flat-square) | API documentation and developer guides |
 | [`taskade/taskade`](https://github.com/taskade/taskade) ![stars](https://img.shields.io/github/stars/taskade/taskade?style=flat-square) | Public docs, honest comparisons, clone-ready App Kits |
 | [`taskade/awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) ![stars](https://img.shields.io/github/stars/taskade/awesome-vibe-coding?style=flat-square) | Curated vibe-coding tools and resources |
+| [`taskade/tasks.md`](https://github.com/taskade/tasks.md) ![stars](https://img.shields.io/github/stars/taskade/tasks.md?style=flat-square) | TASKS.md, the build ledger a coding agent keeps |
 | [`taskade/integrations`](https://github.com/taskade/integrations) ![stars](https://img.shields.io/github/stars/taskade/integrations?style=flat-square) | Actions and triggers (Zapier, n8n) on the public API |
 | [`taskade/temporal-parser`](https://github.com/taskade/temporal-parser) ![stars](https://img.shields.io/github/stars/taskade/temporal-parser?style=flat-square) | ISO 8601 / RFC 3339 / IXDTF lexer+parser |
 | [`taskade/uri-parser`](https://github.com/taskade/uri-parser) ![stars](https://img.shields.io/github/stars/taskade/uri-parser?style=flat-square) | RFC 3986 URI lexer+parser |
@@ -180,7 +184,7 @@ curl -X POST https://www.taskade.com/api/v1/projects \
 | Learn Taskade | [taskade.com/learn](https://www.taskade.com/learn) |
 | llms.txt | [taskade.com/llms.txt](https://www.taskade.com/llms.txt) |
 | MCP server and plugin | [taskade.com/mcp](https://www.taskade.com/mcp) · [github.com/taskade/mcp](https://github.com/taskade/mcp) |
-| Apps | [taskade.com/apps](https://www.taskade.com/apps) |
+| Apps | [taskade.com/apps](https://www.taskade.com/apps) · [categories](https://www.taskade.com/apps/categories) |
 | Downloads | [taskade.com/downloads](https://www.taskade.com/downloads) |
 
 <p align="center">
