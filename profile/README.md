@@ -1,37 +1,50 @@
 <p align="center">
-  <img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade: AI app builder, AI agents and automations" width="100%">
+  <a href="https://www.taskade.com"><img src="media/taskade-x-mono-cream-k5-1500x500.png" alt="Taskade Genesis" width="100%"></a>
 </p>
 
 # Taskade
 
-**Taskade is an AI-native workspace where one prompt builds a running app with its own data, AI agents and automations.**
+**Taskade is an AI-native workspace. Describe what you need, and Taskade Genesis builds a live app with its own data, AI agents and automations.**
 
-[Taskade Genesis](https://www.taskade.com/create) turns one prompt into a running app: projects store the data, AI agents do the thinking, automations run the work across 100+ integrations, and the interface is built for you. Taskade EVE builds the app from your prompt.
+Apps that remember. Agents that reason. Workflows that keep running.
 
-## Start here
+Taskade EVE builds the app from your prompt. Projects hold the data, agents do the thinking, and automations run the work across 100+ integrations. Taskade hosts it all, so there is no backend to run and no deploy step.
 
-| Link | Use it for |
-|------|------------|
-| [taskade.com/create](https://www.taskade.com/create) | Build an app from a prompt with Taskade Genesis |
-| [taskade.com/ai/apps](https://www.taskade.com/ai/apps) | See what the AI app builder makes |
-| [taskade.com/ai/agents](https://www.taskade.com/ai/agents) | Build AI agents with tools and workspace context |
-| [taskade.com/apps](https://www.taskade.com/apps) | Clone a ready-made app from the community gallery |
-| [taskade.com/mcp](https://www.taskade.com/mcp) | Connect any MCP client to the hosted MCP server |
-| [taskade.com/SKILL.md](https://www.taskade.com/SKILL.md) | Teach an AI agent the Taskade tools |
-| [taskade.com/llms.txt](https://www.taskade.com/llms.txt) | Machine-readable index of docs and surfaces |
+**[Build an app from a prompt](https://www.taskade.com/create)** · **[Clone a ready-made app](https://www.taskade.com/apps)**
+
+## Connect your AI agent
+
+Paste this into your agent. It reads the skill, adds the hosted Taskade MCP server and asks you to sign in.
+
+```text
+Set up Taskade for me. Read and follow https://www.taskade.com/SKILL.md
+```
+
+Or add the hosted MCP server to any MCP client and sign in with your Taskade account:
+
+```text
+https://www.taskade.com/mcp
+```
+
+The hosted MCP server is part of every paid plan. Setup for each client is in the [MCP docs](https://www.taskade.com/docs/mcp).
 
 ## Repositories
 
-| Repository | What it is |
-|------------|------------|
-| [`taskade/mcp`](https://github.com/taskade/mcp) | Hosted MCP server, Claude Code plugin, and MCP tooling |
-| [`taskade/awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) | Curated vibe-coding tools and resources |
-| [`taskade/docs`](https://github.com/taskade/docs) | Developer documentation and API guides |
-| [`taskade/tasks.md`](https://github.com/taskade/tasks.md) | TASKS.md spec: the build ledger for coding agents |
+| Repository | What it is | For |
+|---|---|---|
+| [`taskade`](https://github.com/taskade/taskade) | Public docs, comparisons and clone-ready App Kits. Not the product source. | Anyone who builds on Taskade |
+| [`mcp`](https://github.com/taskade/mcp) | The agent plugin, the local MCP server and an OpenAPI-to-MCP code generator | Developers who connect an AI client |
+| [`skills`](https://github.com/taskade/skills) | Agent skills: which Taskade tools to call, and what to check before the agent reports back | Anyone who works with an AI agent |
+| [`docs`](https://github.com/taskade/docs) | Product guides and API docs. Fixes for typos and gaps are welcome. | Developers and docs readers |
+| [`integrations`](https://github.com/taskade/integrations) | Taskade triggers and actions for automation platforms, built on the public API | Integration builders |
+| [`awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) | A curated guide to building software with plain language: tools, MCP servers and agent skills | Anyone who builds with AI |
 
-<p align="center">
-  <a href="https://www.taskade.com"><b>taskade.com</b></a>
-  · <a href="https://www.taskade.com/docs"><b>Docs</b></a>
-  · <a href="https://www.taskade.com/apps"><b>Apps</b></a>
-  · <a href="https://www.taskade.com/pricing"><b>Pricing</b></a>
-</p>
+More: [`tasks.md`](https://github.com/taskade/tasks.md), the build ledger spec for coding agents, and two parsers for date-time strings and URIs, [`temporal-parser`](https://github.com/taskade/temporal-parser) and [`uri-parser`](https://github.com/taskade/uri-parser).
+
+## Links
+
+[taskade.com](https://www.taskade.com) · [Developer docs](https://www.taskade.com/docs) · [MCP docs](https://www.taskade.com/docs/mcp) · [App gallery](https://www.taskade.com/apps) · [Changelog](https://www.taskade.com/changelog) · [Pricing](https://www.taskade.com/pricing) · [llms.txt](https://www.taskade.com/llms.txt)
+
+- **Contribute:** issues and pull requests are welcome. Start with the [contributing guide](https://github.com/taskade/taskade/blob/main/CONTRIBUTING.md).
+- **Security:** report a problem privately, never in a public issue. Read the [security policy](https://github.com/taskade/.github/blob/main/SECURITY.md).
+- **Careers:** see the [open roles](https://www.taskade.com/jobs).
