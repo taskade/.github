@@ -10,7 +10,11 @@ Apps that remember. Agents that reason. Workflows that keep running.
 
 Taskade EVE builds the app from your prompt. Projects hold the data, agents do the thinking, and automations run the work across 100+ integrations. Taskade hosts it all, so there is no backend to run and no deploy step.
 
-**[Build an app from a prompt](https://www.taskade.com/create)** · **[Clone a ready-made app](https://www.taskade.com/apps)**
+<p align="center">
+  <a href="https://www.taskade.com/create"><img src="https://www.taskade.com/static_images/newsletter-gifs/2025-12-01-one-prompt-one-live-app.gif" alt="Taskade EVE builds an event registration app from one prompt: a sign-up form with an AI assistant, a table of attendees and an automation flow, then a grid of other apps built with Taskade Genesis" width="640"></a>
+</p>
+
+**[Build an app from a prompt](https://www.taskade.com/create)** · **[Clone a ready-made app in the Taskade App Factory](https://www.taskade.com/apps)**
 
 ## Connect your AI agent
 
@@ -37,6 +41,8 @@ The hosted MCP server is part of every paid plan. Setup for each client is in th
 | [`skills`](https://github.com/taskade/skills) | Agent skills: which Taskade tools to call, and what to check before the agent reports back | Anyone who works with an AI agent |
 | [`docs`](https://github.com/taskade/docs) | Product guides and API docs. Fixes for typos and gaps are welcome. | Developers and docs readers |
 | [`integrations`](https://github.com/taskade/integrations) | Taskade triggers and actions for automation platforms, built on the public API | Integration builders |
+| [`cli`](https://github.com/taskade/cli) | Connects Claude Code, Cursor, Codex and VS Code to the hosted MCP server with sign-in (`plug`), and says why a connection fails (`doctor`). Run `npx @taskade/cli plug`. | Anyone who connects an AI client |
+| [`taskade-sample-app`](https://github.com/taskade/taskade-sample-app) | A template for your own App Kit: projects, AI agents, automations and app UI as JSON files | App Kit builders |
 | [`awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) | A curated guide to building software with plain language: tools, MCP servers and agent skills | Anyone who builds with AI |
 
 More: [`tasks.md`](https://github.com/taskade/tasks.md), the build ledger spec for coding agents, and two parsers for date-time strings and URIs, [`temporal-parser`](https://github.com/taskade/temporal-parser) and [`uri-parser`](https://github.com/taskade/uri-parser).
