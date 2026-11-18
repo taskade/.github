@@ -41,7 +41,7 @@ The hosted MCP server is part of every paid plan. Setup for each client is in th
 | [`skills`](https://github.com/taskade/skills) | Agent skills: which Taskade tools to call, and what to check before the agent reports back | Anyone who works with an AI agent |
 | [`docs`](https://github.com/taskade/docs) | Product guides and API docs. Fixes for typos and gaps are welcome. | Developers and docs readers |
 | [`integrations`](https://github.com/taskade/integrations) | Taskade triggers and actions for automation platforms, built on the public API | Integration builders |
-| [`cli`](https://github.com/taskade/cli) | Connects Claude Code, Cursor, Codex and VS Code to the hosted MCP server with sign-in (`plug`), and says why a connection fails (`doctor`). Not on npm yet: run `npx github:taskade/cli`. | Anyone who connects an AI client |
+| [`cli`](https://github.com/taskade/cli) | Connects Claude Code, Cursor, Codex and VS Code to the hosted MCP server with sign-in (`plug`), and says why a connection fails (`doctor`). Run `npx @taskade/cli plug`. | Anyone who connects an AI client |
 | [`taskade-sample-app`](https://github.com/taskade/taskade-sample-app) | A template for your own App Kit: projects, AI agents, automations and app UI as JSON files | App Kit builders |
 | [`awesome-vibe-coding`](https://github.com/taskade/awesome-vibe-coding) | A curated guide to building software with plain language: tools, MCP servers and agent skills | Anyone who builds with AI |
 
